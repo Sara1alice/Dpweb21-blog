@@ -1,0 +1,43 @@
+/* Estilização do conteúdo principal da página index.html */
+
+.artigo{
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 64px 0;
+    border-radius: 5px;
+}
+
+.cabecalho-artigo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.cabecalho-data{
+    color: #B6B6B6;
+    font-size: 1em;
+}
+
+.cabecalho-icone{
+    font-size: 1.5em;
+    color: #BC3FDB;
+}
+
+.cabecalho-icone:hover{
+   font-weight: 900;
+   cursor:pointer
+}
+.conteudo-img{
+    width: 100%;
+    height: 250px;
+    border-radius: 5px 5px 0 0;
+    background-image: linear-gradient(90deg, rgba(219, 73, 196, 0.3) 0%, rgba(188, 62, 219, 0.3) 100%), url(../img/mana5280-uMewOhws6uk-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 20%;   
+}
+
+#artigo-4{
+    margin-top: 0;
+    border-radius: 0 0 5px 5px;
+}

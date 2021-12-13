@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contato.css">
+    <title>Contato</title>
+</head>
+<body>
+    <header>
+        <nav class="box-grid">
+            <h3>Blog</h3>
+            <ul>
+                <li><a href="./index.html">blog</a></li>
+                <li class="ultimo-link-nav" ><a class="link-ativo" href="#">contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="box-grid">
+        <section id="contato-section">
+            <div>
+                <h2 class="conteudo-titulo">Entre em contato com a gente!</h2>
+                <p class="conteudo-paragrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab nemo beatae recusandae aperiam autem repudiandae blanditiis libero provident minus nam. Repellat reiciendis necessitatibus fugiat exercitationem natus quasi tempora, quis deserunt?</p>
+            </div>
+            <form id="form-contato">
+                <div id="contato-inputs">
+                    <div id="inputs-cima">
+                        <div class="input-contato">
+                            <label for="nome">Nome</label>
+                            <input class="estilo-input" id="nome" type="text" placeholder="João Lucas">
+                        </div>
+                        <div class="input-contato">
+                            <label for="email">E-mail</label>
+                            <input class="estilo-input" id="email" type="email" placeholder="exemplo@email.com">
+                        </div>
+                    </div>
+                    <div id="textarea-contato">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea class="estilo-input" id="mensagem" rows="1" maxlength="280" placeholder="Digite aqui sua mensagem"></textarea>
+                    </div>
+                </div>
+                <button id="botao-contato" type="submit">Enviar mensagem!</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p class="box-grid"> Essa página foi inspirada no Desafio 1 do <a class="link-ativo" href="https://github.com/iuricode" target="_blank">@iuricode</a>
+            para fins educacionais.</p>
+    </footer>
+</body>
+</html>

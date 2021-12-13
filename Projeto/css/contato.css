@@ -1,0 +1,81 @@
+#contato-section{
+    height: calc(100vh - 157px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#inputs-cima{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-contato{
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+}
+
+.estilo-input{
+    padding: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #BC3FDB;
+    background-color: #F3F5F7;
+    border-width: 2px;
+    font-size: 1.1em;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.estilo-input::placeholder{
+    color: #D79AE9;
+}
+
+.estilo-input:focus{
+    outline: none;
+    border-color: #86249e;
+}
+
+#textarea-contato{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 4%;
+}
+
+#mensagem{
+    resize: none;
+    height: 100px;
+}
+
+#form-contato{
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+
+label{
+    margin-bottom: 5px;
+    color: #D79AE9;
+}
+
+#botao-contato{
+    margin-top: 8%;
+    width: 30%;
+    padding: 15px;
+    /* height: 10%; */
+    font-size: 1.1em;
+    font-family: 'Lexend Deca', sans-serif;
+
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #DB49C4 0%, #BC3EDB 100%);
+    color: #F3F5F7;
+    opacity: 0.7;
+}
+
+#botao-contato:hover{
+    cursor: pointer;
+    opacity: 1;
+}
